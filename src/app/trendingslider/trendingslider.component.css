@@ -1,0 +1,41 @@
+.trending {
+    padding-bottom: 2.75rem;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 19px;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.trending h3 {
+    font-size: 1.625rem;
+    font-weight: 600;
+    margin-bottom: 2.625rem !important;
+}
+
+.btns {
+    display: flex;
+    gap: 1rem;
+}
+
+.btns button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: white;
+    /* padding: 0.625rem; */
+    /* font-size: 0.9375rem; */
+    cursor: pointer;
+    border: none;
+    height: 40px;
+    width: 40px;
+    transition: all 0.1s ease-in;
+}
+

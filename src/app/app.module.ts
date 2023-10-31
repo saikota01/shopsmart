@@ -5,12 +5,18 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeroComponent } from './hero/hero.component';
 import { RecommendedComponent } from './recommended/recommended.component';
+import { BannerComponent } from './banner/banner.component';
+import { TrendingsliderComponent } from './trendingslider/trendingslider.component';
+import { TrendingitemComponent } from './trendingitem/trendingitem.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeroComponent,
-    RecommendedComponent
+    RecommendedComponent,
+    BannerComponent,
+    TrendingsliderComponent,
+    TrendingitemComponent
   ],
   imports: [
     HttpClientModule,

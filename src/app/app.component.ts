@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import Banner1 from "../assets/img/banner/banner1.jpg"
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ecommerce';
+  Creative: any;
 }
