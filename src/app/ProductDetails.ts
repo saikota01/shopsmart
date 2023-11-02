@@ -159,7 +159,7 @@ export const items = [
       id: 13,
       category: "skin-care",
       img: "../../assets/img/products/13.jpg",
-      description: "Unbleached Cotton Pads 180",
+      description: "Cotton Pads 180",
       price: 33,
       otherImgs: ["../../assets/img/products/otherProducts/cotton1.jpg", "../../assets/img/products/otherProducts/cotton2.jpg"],
       specs:

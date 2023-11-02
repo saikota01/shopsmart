@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 import { items } from '../ProductDetails';
 
 @Component({
@@ -7,6 +7,7 @@ import { items } from '../ProductDetails';
   styleUrls: ['./trendingitem.component.css']
 })
 export class TrendingitemComponent implements OnInit{
+
   trendingItems: any[] = []
   ngOnInit(): void {
     this.trendingItems = items.filter((item) => item.id > 8);
