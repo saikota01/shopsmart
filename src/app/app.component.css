@@ -23,9 +23,14 @@ nav {
     transition: height 0.1s linear;
 }
 
-.logo {
-    cursor: pointer;
-    display: flex;
+.logo a{
+    font-size: x-large;
+    /* text-transform: uppercase; */
+    display: block;
+    padding-top: 5px;
+    color: #000000;
+    text-decoration: none;
+    font-weight: bolder;
 }
 
 .nav-links {
@@ -37,11 +42,16 @@ nav {
 .nav-links a {
     text-transform: uppercase;
     display: block;
-    padding-top: 7px;
+    padding-top: 5px;
     color: #000000;
     text-decoration: none;
+    font-weight: bolder;
 }
 
 .nav-links a:hover {
     text-decoration: underline;
+}
+
+.nav-links svg {
+    padding-bottom: 3px;
 }

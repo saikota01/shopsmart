@@ -7,7 +7,7 @@ import { HeroComponent } from './hero/hero.component';
 import { RecommendedComponent } from './recommended/recommended.component';
 import { BannerComponent } from './banner/banner.component';
 import { TrendingsliderComponent } from './trendingslider/trendingslider.component';
-import { TrendingitemComponent } from './trendingitem/trendingitem.component';
+import { RecoproductComponent } from './recoproduct/recoproduct.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +16,7 @@ import { TrendingitemComponent } from './trendingitem/trendingitem.component';
     RecommendedComponent,
     BannerComponent,
     TrendingsliderComponent,
-    TrendingitemComponent
+    RecoproductComponent,
   ],
   imports: [
     HttpClientModule,
