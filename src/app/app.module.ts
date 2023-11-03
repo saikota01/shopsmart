@@ -9,6 +9,7 @@ import { BannerComponent } from './banner/banner.component';
 import { TrendingsliderComponent } from './trendingslider/trendingslider.component';
 import { RecoproductComponent } from './recoproduct/recoproduct.component';
 import { TrendingitemComponent } from './trendingitem/trendingitem.component';
+import { RevbannerComponent } from './revbanner/revbanner.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { TrendingitemComponent } from './trendingitem/trendingitem.component';
     TrendingsliderComponent,
     RecoproductComponent,
     TrendingitemComponent,
+    RevbannerComponent,
   ],
   imports: [
     HttpClientModule,
