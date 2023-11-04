@@ -8,6 +8,7 @@ import { items } from '../ProductDetails';
   styleUrls: ['./product.component.css']
 })
 export class ProductComponent implements OnInit{
+
   id: string = "";
   idNum: number = 0;
   item: any;
@@ -17,6 +18,7 @@ export class ProductComponent implements OnInit{
 
 
   ngOnInit(): void {
+
     this.route.paramMap.subscribe((params) => {this.id = params.get('id') || ''})
     this.item = items.find((product)=> {
       return product.id === parseInt(this.id);
