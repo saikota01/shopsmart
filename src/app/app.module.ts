@@ -20,6 +20,7 @@ import { LampsComponent } from './lamps/lamps.component';
 import { KitchenComponent } from './kitchen/kitchen.component';
 import { ChairsComponent } from './chairs/chairs.component';
 import { SkincareComponent } from './skincare/skincare.component';
+import { ProductComponent } from './product/product.component';
 
 @NgModule({
   declarations: [
@@ -41,6 +42,7 @@ import { SkincareComponent } from './skincare/skincare.component';
     KitchenComponent,
     ChairsComponent,
     SkincareComponent,
+    ProductComponent,
   ],
   imports: [
     HttpClientModule,

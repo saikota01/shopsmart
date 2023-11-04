@@ -18,7 +18,7 @@ export const items = [
       img: "../../assets/img/products/2.jpg",
       description: "Pop-Up Toaster",
       price: 45,
-      otherImgs: ["../../assets/img/products/otherProducts/toster1.jpg", "../../assets/img/products/otherProducts/toster1.jpg"],
+      otherImgs: ["../../assets/img/products/otherProducts/toster1.jpg", "../../assets/img/products/otherProducts/toster2.jpg"],
       specs:
         " The rounded square design of the toaster allows it to fit neatly against a wall, or inside a corner. Excellent at defrosting, and with the perfect breadtoheater distance to give crunchy toast with a soft, spongey middle.",
       texture: "Plastic",

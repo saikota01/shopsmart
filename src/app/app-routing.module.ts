@@ -9,6 +9,7 @@ import { LampsComponent } from './lamps/lamps.component';
 import { KitchenComponent } from './kitchen/kitchen.component';
 import { ChairsComponent } from './chairs/chairs.component';
 import { SkincareComponent } from './skincare/skincare.component';
+import { ProductComponent } from './product/product.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
@@ -25,6 +26,7 @@ const routes: Routes = [
       {path: 'skincare', component: SkincareComponent},
     ]
   },
+  {path: 'categories/product/:id',component: ProductComponent}
 ];
 
 @NgModule({
