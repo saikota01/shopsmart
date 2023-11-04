@@ -10,6 +10,16 @@ import { TrendingsliderComponent } from './trendingslider/trendingslider.compone
 import { RecoproductComponent } from './recoproduct/recoproduct.component';
 import { TrendingitemComponent } from './trendingitem/trendingitem.component';
 import { RevbannerComponent } from './revbanner/revbanner.component';
+import { HomeComponent } from './home/home.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { CategoriesComponent } from './categories/categories.component';
+import { AllComponent } from './all/all.component';
+import { FurnitureComponent } from './furniture/furniture.component';
+import { ElectronicsComponent } from './electronics/electronics.component';
+import { LampsComponent } from './lamps/lamps.component';
+import { KitchenComponent } from './kitchen/kitchen.component';
+import { ChairsComponent } from './chairs/chairs.component';
+import { SkincareComponent } from './skincare/skincare.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +31,16 @@ import { RevbannerComponent } from './revbanner/revbanner.component';
     RecoproductComponent,
     TrendingitemComponent,
     RevbannerComponent,
+    HomeComponent,
+    NavbarComponent,
+    CategoriesComponent,
+    AllComponent,
+    FurnitureComponent,
+    ElectronicsComponent,
+    LampsComponent,
+    KitchenComponent,
+    ChairsComponent,
+    SkincareComponent,
   ],
   imports: [
     HttpClientModule,

@@ -1,12 +1,4 @@
 
-.banner-container-reverse {
-    display: flex;
-    justify-content: space-between;
-    height: 40rem;
-    overflow: hidden;
-    flex-direction: row-reverse;
-}
-
 .banner {
     padding-top: 1rem;
     padding-bottom: 5rem;

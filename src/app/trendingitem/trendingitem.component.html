@@ -1,6 +1,6 @@
 <div class="row-container" id="slider">
     <div class="row-item" *ngFor="let item of trendingItems">
-        <a [href]="'categories/product/'+item.id">
+        <a [routerLink]="'categories/product/'+item.id">
             <div class="item-header">
                 <img [src]="item.img" alt={{item.id}}>
             </div>

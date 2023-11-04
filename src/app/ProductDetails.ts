@@ -196,7 +196,7 @@ export const items = [
     },
     {
       id: 16,
-      category: "electronic",
+      category: "electronics",
       img: "../../assets/img/products/16.jpg",
       description: "Anti Dark Light",
       price: 120,
