@@ -1,5 +1,4 @@
 import { AfterViewInit, Component, ElementRef, ViewChild, Renderer2 } from '@angular/core';
-import { TrendingitemComponent } from '../trendingitem/trendingitem.component';
 
 @Component({
   selector: 'app-trendingslider',
