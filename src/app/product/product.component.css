@@ -93,7 +93,7 @@
 
 .product-btns {
     display: flex;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .product-btns button {
@@ -141,6 +141,7 @@
     font-weight: bold;
     cursor: pointer;
     transition: all 0.2s;
+    border-radius: 50px;
 }
 
 .atc-btn {

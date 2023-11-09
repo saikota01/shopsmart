@@ -39,6 +39,8 @@
 }
 
 .item-description {
-    font-size: 1.1475rem;
+    /* font-size: 1.1475rem; */
+    font-size: 0.9rem;
     padding: 0.675rem;
 }
+

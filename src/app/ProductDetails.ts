@@ -259,5 +259,30 @@ export const items = [
       weight: "50ml",
       size: "10cm x 5cm",
     },
+    {
+      id: 21,
+      category: "watches",
+      img: "../../assets/img/products/21.jpg",
+      description: "Diesel Analog Men's Watch",
+      price: 21495,
+      otherImgs: ["../../assets/img/products/otherProducts/watch12.jpg","../../assets/img/products/otherProducts/watch13.jpg"],
+      specs: "Diesel watches reflect the confident, assertive nature of the brand itself. Bold and strong, our timepieces will blend seamlessly with any outfit you wear, throughout the year.",
+      texture: "metal",
+      weight: "200g",
+      size: "3.5cm x 5cm x 4.5cm"
+    },
+
+    {
+      id: 22,
+      category: "watches",
+      img: "../../assets/img/products/22.jpg",
+      description: "Fossil Analog Men's Watch",
+      price: 14499,
+      otherImgs: ["../../assets/img/products/otherProducts/watch21.jpg","../../assets/img/products/otherProducts/watch22.jpg"],
+      specs: "Fossil has always been inspired by creativity and ingenuity. We've strived to bring new life into the industry by making quality, fashionable watches and accessories that are both fun and accessible.",
+      texture: "Metal",
+      weight: "235g",
+      size: "4.5cm x 2.2cm x 1.1cm"
+    }
   ];
   
