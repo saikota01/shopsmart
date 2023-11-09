@@ -21,6 +21,7 @@ import { KitchenComponent } from './kitchen/kitchen.component';
 import { ChairsComponent } from './chairs/chairs.component';
 import { SkincareComponent } from './skincare/skincare.component';
 import { ProductComponent } from './product/product.component';
+import { ProductListComponent } from './product-list/product-list.component';
 
 @NgModule({
   declarations: [
@@ -43,6 +44,7 @@ import { ProductComponent } from './product/product.component';
     ChairsComponent,
     SkincareComponent,
     ProductComponent,
+    ProductListComponent,
   ],
   imports: [
     HttpClientModule,

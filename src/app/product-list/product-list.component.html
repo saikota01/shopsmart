@@ -1,0 +1,6 @@
+<div *ngFor="let product of products">
+    <h6>{{ product.title }}</h6>
+    <!-- <p>{{ product.description }}</p> -->
+    <img [src]="product.images[0]" alt="Image1" height="100px" width="100px">
+    <img [src]="product.images[1]" alt="Image2" height="100px" width="100px">
+</div>

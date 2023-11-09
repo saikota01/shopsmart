@@ -23,19 +23,24 @@
 }
 
 .product-details {
-    font-size: 1.2rem;
+    margin-top: 2rem;
+    font-size: 1.1rem;
     padding: 1rem;
 }
 
-.item-price {
+/* .item-price {
     font-weight: 600;
     font-size: 1.2rem;
     margin-top: 0 rem;
     padding-left: 0.5rem;
-}
+} */
 
 
 .product a {
     text-decoration: none;
     color: black;
+}
+
+p {
+    margin-bottom: 0px;
 }

@@ -40,7 +40,11 @@
 
 .item-description {
     /* font-size: 1.1475rem; */
-    font-size: 0.9rem;
+    margin-top: 1rem;
+    font-size: 1rem;
     padding: 0.675rem;
 }
 
+p {
+    margin-bottom: 0px;
+}
