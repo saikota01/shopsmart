@@ -1,0 +1,13 @@
+<div class="row-container" id="slider">
+    <div class="row-item" *ngFor="let item of products">
+        <a [routerLink]="'categories/product/'+item.id">
+            <div class="item-header">
+                <img [src]="item.image" alt={{item.id}}>
+            </div>
+            <div class="item-description">
+                <p>{{item.title}}</p>
+                <p class="item-price">₹{{item.price}}</p>
+            </div>
+        </a>
+    </div>
+</div>

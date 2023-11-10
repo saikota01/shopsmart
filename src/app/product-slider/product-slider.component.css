@@ -39,9 +39,3 @@
     transition: all 0.1s ease-in;
 }
 
-
-@media (max-width:600px) {
-    .trending {
-        margin-top: 5rem;
-    }
-}

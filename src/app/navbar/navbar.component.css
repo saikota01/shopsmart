@@ -55,3 +55,21 @@ nav {
 .nav-links svg {
     padding-bottom: 3px;
 }
+
+@media (max-width:550px) {
+    .nav-links {
+        font-size: 0.9rem;
+        gap: 1rem;
+    }
+
+    .nav-links svg {
+        height: 22px;
+        width: 22px;
+    }
+}
+
+@media (max-width: 420px) {
+    .nav-links svg{
+        display: none;
+    }
+}
