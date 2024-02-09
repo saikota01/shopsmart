@@ -1,0 +1,14 @@
+<div class="max-w-[1200px] my-16 mx-auto">
+    <div class="flex justify-between m-2 sm:m-4">
+        <div class="p-4 flex flex-col justify-around bg-[#e9e9e9] md:p-12 lg:p-16">
+            <p class="text-md font-extrabold sm:text-xl md:text-2xl lg:text-3xl">{{title}}</p>
+            <p class="text-[0.5rem] font-normal sm:text-[1rem] md:text-md lg:text-xl">{{text}}</p>
+            <a routerLink="/categories/all">
+                <button class="border-black border-2 font-bold text-xs p-2 bg-gray-800 text-white sm:text-sm md:text-md lg:text-lg hover:bg-transparent hover:text-black">Shop Now</button>
+            </a>
+        </div>
+        <div class="img">
+            <img [src]="img" alt="banner" />
+        </div>
+    </div>
+</div>

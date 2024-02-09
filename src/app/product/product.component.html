@@ -1,0 +1,53 @@
+<!-- <div class="container" *ngIf="item">
+    <p>Product item: {{id}}</p>
+    <p>Product Name: {{item.description}}</p>
+</div> -->
+
+<div class="product-page-div">
+    <div class="container">
+        <div class="product-div">
+            <div class="product-left">
+                <h3 class="product-big-name">{{ item.description}}</h3>
+                <div class="big-img">
+                    <img src={{image}} alt="">
+                </div>
+                <div class="small-imgs">
+                    <img src={{item.img}} alt="img1" (click)="handleImage(item.img)">
+                    <img src={{item.otherImgs[0]}} alt="img2" (click)="handleImage(item.otherImgs[0])">
+                    <img src={{item.otherImgs[1]}} alt="img3" (click)="handleImage(item.otherImgs[1])">
+                </div>
+            </div>
+            <div class="product-right">
+                <p class="product-specs">{{item.specs}}</p>
+                <div class="product-quant">
+                    <p>Quantity</p>
+                    <div class="product-btns">
+                        <button (click)="decrement()">-</button>
+                        <p class="quantity">{{quantity}}</p>
+                        <button (click)="increment()">+</button>
+                    </div>
+                    <p class="product-price">₹{{item.price * quantity}}</p>
+                </div>
+                <div class="atc-buy">
+                    <button class="atc-btn">add to cart</button>
+                    <button class="buy-btn">buy now</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="specifications">
+            <div class="spec">
+                <p class="spec-title">Texture:</p>
+                <p class="title-desc">{{item.texture}}</p>
+            </div>
+            <div class="spec">
+                <p class="spec-title">Weight:</p>
+                <p class="title-desc">{{item.weight}}</p>
+            </div>
+            <div class="spec">
+                <p class="spec-title">Size:</p>
+                <p class="title-desc">{{item.size}}</p>
+            </div>
+        </div>
+    </div>
+</div>

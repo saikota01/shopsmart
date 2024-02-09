@@ -1,0 +1,21 @@
+<div class="mt-28 md:mt-36">
+    <div class="max-w-[1200px] mx-auto md:px-5">
+        <div class="slides flex justify-between items-center">
+            <div class="p-2 mx-3 lg:mx-8 md:p-3 lg:p-4 right rounded-full bg-gray-200 cursor-pointer" (click)="changeSlide('prev')">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"/>
+                </svg>
+            </div>
+            <div class="banner-container max-h-[37rem] overflow-hidden">
+                <div class="banner flex justify-between items-center w-full h-full">
+                    <img class="h-auto w-full object-cover" [src]="images[currentIndex]" alt="banner-image">
+                </div>
+            </div>
+            <div class="p-2 mx-3 lg:mx-8 md:p-3 lg:p-4 right rounded-full bg-gray-200 cursor-pointer" (click)="changeSlide('next')">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
+                </svg>
+            </div>
+        </div>
+    </div>
+</div>

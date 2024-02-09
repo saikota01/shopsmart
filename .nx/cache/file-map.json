@@ -1,0 +1,843 @@
+{
+  "version": "6.0",
+  "nxVersion": "18.0.2",
+  "deps": {
+    "@angular/animations": "^17.1.2",
+    "@angular/common": "^17.1.2",
+    "@angular/compiler": "^17.1.2",
+    "@angular/core": "^17.1.2",
+    "@angular/forms": "^17.1.2",
+    "@angular/platform-browser": "^17.1.2",
+    "@angular/platform-browser-dynamic": "^17.1.2",
+    "@angular/router": "^17.1.2",
+    "rxjs": "~7.8.1",
+    "tslib": "^2.6.2",
+    "zone.js": "~0.14.3",
+    "@angular-devkit/build-angular": "^17.1.2",
+    "@angular/cli": "~17.1.2",
+    "@angular/compiler-cli": "^17.1.2",
+    "@spartan-ng/cli": "^0.0.1-alpha.336",
+    "@types/jasmine": "~5.1.4",
+    "autoprefixer": "^10.4.17",
+    "jasmine-core": "~5.1.1",
+    "karma": "~6.4.2",
+    "karma-chrome-launcher": "~3.2.0",
+    "karma-coverage": "~2.2.1",
+    "karma-jasmine": "~5.1.0",
+    "karma-jasmine-html-reporter": "~2.1.0",
+    "postcss": "^8.4.34",
+    "tailwindcss": "^3.4.1",
+    "typescript": "~5.3.3",
+    "webp-loader": "^0.6.0"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "projectFileMap": {
+      "shopsmart": [
+        {
+          "file": ".editorconfig",
+          "hash": "6686520031028425313"
+        },
+        {
+          "file": ".gitignore",
+          "hash": "13044518069027839699"
+        },
+        {
+          "file": ".vscode/extensions.json",
+          "hash": "5331566439708925252"
+        },
+        {
+          "file": ".vscode/launch.json",
+          "hash": "17038929134016848735"
+        },
+        {
+          "file": ".vscode/tasks.json",
+          "hash": "5336636969995539451"
+        },
+        {
+          "file": "README.md",
+          "hash": "11558286671166255"
+        },
+        {
+          "file": "angular.json",
+          "hash": "4251148518902594189"
+        },
+        {
+          "file": "package-lock.json",
+          "hash": "8341910754130749943"
+        },
+        {
+          "file": "package.json",
+          "hash": "8725879215920870772",
+          "deps": [
+            "npm:@angular/animations",
+            "npm:@angular/common",
+            "npm:@angular/compiler",
+            "npm:@angular/core",
+            "npm:@angular/forms",
+            "npm:@angular/platform-browser",
+            "npm:@angular/platform-browser-dynamic",
+            "npm:@angular/router",
+            "npm:rxjs",
+            "npm:tslib",
+            "npm:zone.js",
+            "npm:@angular-devkit/build-angular",
+            "npm:@angular/cli",
+            "npm:@angular/compiler-cli",
+            "npm:@spartan-ng/cli",
+            "npm:@types/jasmine",
+            "npm:autoprefixer",
+            "npm:jasmine-core",
+            "npm:karma",
+            "npm:karma-chrome-launcher",
+            "npm:karma-coverage",
+            "npm:karma-jasmine",
+            "npm:karma-jasmine-html-reporter",
+            "npm:postcss",
+            "npm:tailwindcss",
+            "npm:typescript",
+            "npm:webp-loader"
+          ]
+        },
+        {
+          "file": "src/angular-app-env.d.ts",
+          "hash": "1346851846283948420"
+        },
+        {
+          "file": "src/app/ProductDetails.ts",
+          "hash": "8119482488322927873"
+        },
+        {
+          "file": "src/app/all/all.component.css",
+          "hash": "2606533896956003860"
+        },
+        {
+          "file": "src/app/all/all.component.html",
+          "hash": "16605046588128680846"
+        },
+        {
+          "file": "src/app/all/all.component.spec.ts",
+          "hash": "10589596833045978864"
+        },
+        {
+          "file": "src/app/all/all.component.ts",
+          "hash": "17583150949128817011"
+        },
+        {
+          "file": "src/app/app-routing.module.ts",
+          "hash": "6241283361051239916"
+        },
+        {
+          "file": "src/app/app.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "src/app/app.component.html",
+          "hash": "3382784799186653618"
+        },
+        {
+          "file": "src/app/app.component.spec.ts",
+          "hash": "3509704102751080709"
+        },
+        {
+          "file": "src/app/app.component.ts",
+          "hash": "11226135974848316239"
+        },
+        {
+          "file": "src/app/app.module.ts",
+          "hash": "3479862121605083129"
+        },
+        {
+          "file": "src/app/banner/banner.component.css",
+          "hash": "14349887811302266033"
+        },
+        {
+          "file": "src/app/banner/banner.component.html",
+          "hash": "4548372865453605901"
+        },
+        {
+          "file": "src/app/banner/banner.component.spec.ts",
+          "hash": "6494396271168682142"
+        },
+        {
+          "file": "src/app/banner/banner.component.ts",
+          "hash": "2661349278281972592"
+        },
+        {
+          "file": "src/app/categories/categories.component.css",
+          "hash": "11006916463394661416"
+        },
+        {
+          "file": "src/app/categories/categories.component.html",
+          "hash": "1328749640904624839"
+        },
+        {
+          "file": "src/app/categories/categories.component.spec.ts",
+          "hash": "10241640906073474104"
+        },
+        {
+          "file": "src/app/categories/categories.component.ts",
+          "hash": "7273539480199156352"
+        },
+        {
+          "file": "src/app/chairs/chairs.component.css",
+          "hash": "3833363197994671369"
+        },
+        {
+          "file": "src/app/chairs/chairs.component.html",
+          "hash": "17797507103886941659"
+        },
+        {
+          "file": "src/app/chairs/chairs.component.spec.ts",
+          "hash": "12282876124215339072"
+        },
+        {
+          "file": "src/app/chairs/chairs.component.ts",
+          "hash": "3955899280468667548"
+        },
+        {
+          "file": "src/app/data.service.spec.ts",
+          "hash": "7752277138120921839"
+        },
+        {
+          "file": "src/app/data.service.ts",
+          "hash": "17415988663838331985"
+        },
+        {
+          "file": "src/app/electronics/electronics.component.css",
+          "hash": "3833363197994671369"
+        },
+        {
+          "file": "src/app/electronics/electronics.component.html",
+          "hash": "17797507103886941659"
+        },
+        {
+          "file": "src/app/electronics/electronics.component.spec.ts",
+          "hash": "4920606161290791326"
+        },
+        {
+          "file": "src/app/electronics/electronics.component.ts",
+          "hash": "1609582932200442328"
+        },
+        {
+          "file": "src/app/furniture/furniture.component.css",
+          "hash": "3833363197994671369"
+        },
+        {
+          "file": "src/app/furniture/furniture.component.html",
+          "hash": "17797507103886941659"
+        },
+        {
+          "file": "src/app/furniture/furniture.component.spec.ts",
+          "hash": "1052535930395937594"
+        },
+        {
+          "file": "src/app/furniture/furniture.component.ts",
+          "hash": "2266293467763771078"
+        },
+        {
+          "file": "src/app/home/home.component.html",
+          "hash": "16793346853058672279"
+        },
+        {
+          "file": "src/app/home/home.component.spec.ts",
+          "hash": "15822127150444567963"
+        },
+        {
+          "file": "src/app/home/home.component.ts",
+          "hash": "4458980032138095625"
+        },
+        {
+          "file": "src/app/kitchen/kitchen.component.css",
+          "hash": "3833363197994671369"
+        },
+        {
+          "file": "src/app/kitchen/kitchen.component.html",
+          "hash": "17797507103886941659"
+        },
+        {
+          "file": "src/app/kitchen/kitchen.component.spec.ts",
+          "hash": "675330755352644200"
+        },
+        {
+          "file": "src/app/kitchen/kitchen.component.ts",
+          "hash": "15753575439638469743"
+        },
+        {
+          "file": "src/app/lamps/lamps.component.css",
+          "hash": "3833363197994671369"
+        },
+        {
+          "file": "src/app/lamps/lamps.component.html",
+          "hash": "17797507103886941659"
+        },
+        {
+          "file": "src/app/lamps/lamps.component.spec.ts",
+          "hash": "6548239736935265406"
+        },
+        {
+          "file": "src/app/lamps/lamps.component.ts",
+          "hash": "2270802927012069069"
+        },
+        {
+          "file": "src/app/navbar/navbar.component.html",
+          "hash": "5132684618410034241"
+        },
+        {
+          "file": "src/app/navbar/navbar.component.spec.ts",
+          "hash": "4989300925962487947"
+        },
+        {
+          "file": "src/app/navbar/navbar.component.ts",
+          "hash": "2167157604880976671"
+        },
+        {
+          "file": "src/app/product-item/product-item.component.css",
+          "hash": "12701193655838193877"
+        },
+        {
+          "file": "src/app/product-item/product-item.component.html",
+          "hash": "8239608660347528447"
+        },
+        {
+          "file": "src/app/product-item/product-item.component.spec.ts",
+          "hash": "1521692628139979638"
+        },
+        {
+          "file": "src/app/product-item/product-item.component.ts",
+          "hash": "14995874813429125436"
+        },
+        {
+          "file": "src/app/product-list/product-list.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "src/app/product-list/product-list.component.html",
+          "hash": "17669918627539720575"
+        },
+        {
+          "file": "src/app/product-list/product-list.component.spec.ts",
+          "hash": "8299805573033127699"
+        },
+        {
+          "file": "src/app/product-list/product-list.component.ts",
+          "hash": "9535841902076934429"
+        },
+        {
+          "file": "src/app/product-slider/product-slider.component.css",
+          "hash": "4766788333532976288"
+        },
+        {
+          "file": "src/app/product-slider/product-slider.component.html",
+          "hash": "1592749905900847960"
+        },
+        {
+          "file": "src/app/product-slider/product-slider.component.spec.ts",
+          "hash": "13374323115439872742"
+        },
+        {
+          "file": "src/app/product-slider/product-slider.component.ts",
+          "hash": "9619722073685131770"
+        },
+        {
+          "file": "src/app/product/product.component.css",
+          "hash": "9998705993094530304"
+        },
+        {
+          "file": "src/app/product/product.component.html",
+          "hash": "11890964256737581704"
+        },
+        {
+          "file": "src/app/product/product.component.spec.ts",
+          "hash": "16249118296720878802"
+        },
+        {
+          "file": "src/app/product/product.component.ts",
+          "hash": "16596226865595273610"
+        },
+        {
+          "file": "src/app/recommended/recommended.component.css",
+          "hash": "11107419727749043568"
+        },
+        {
+          "file": "src/app/recommended/recommended.component.html",
+          "hash": "8771570901801572926"
+        },
+        {
+          "file": "src/app/recommended/recommended.component.spec.ts",
+          "hash": "9868305957937861794"
+        },
+        {
+          "file": "src/app/recommended/recommended.component.ts",
+          "hash": "14752021534044135917"
+        },
+        {
+          "file": "src/app/recoproduct/recoproduct.component.css",
+          "hash": "4321559847689523099"
+        },
+        {
+          "file": "src/app/recoproduct/recoproduct.component.html",
+          "hash": "17271386168786961451"
+        },
+        {
+          "file": "src/app/recoproduct/recoproduct.component.spec.ts",
+          "hash": "10346513293377737914"
+        },
+        {
+          "file": "src/app/recoproduct/recoproduct.component.ts",
+          "hash": "16043427917405192067"
+        },
+        {
+          "file": "src/app/revbanner/revbanner.component.css",
+          "hash": "12102181653309410077"
+        },
+        {
+          "file": "src/app/revbanner/revbanner.component.html",
+          "hash": "1791955895022317671"
+        },
+        {
+          "file": "src/app/revbanner/revbanner.component.spec.ts",
+          "hash": "18195355491612631251"
+        },
+        {
+          "file": "src/app/revbanner/revbanner.component.ts",
+          "hash": "5731106995710856172"
+        },
+        {
+          "file": "src/app/skincare/skincare.component.css",
+          "hash": "3833363197994671369"
+        },
+        {
+          "file": "src/app/skincare/skincare.component.html",
+          "hash": "17797507103886941659"
+        },
+        {
+          "file": "src/app/skincare/skincare.component.spec.ts",
+          "hash": "2089407391056964004"
+        },
+        {
+          "file": "src/app/skincare/skincare.component.ts",
+          "hash": "6037061773110999356"
+        },
+        {
+          "file": "src/app/slideshow/slideshow.component.html",
+          "hash": "1671423577009606668"
+        },
+        {
+          "file": "src/app/slideshow/slideshow.component.spec.ts",
+          "hash": "14851575468514840795"
+        },
+        {
+          "file": "src/app/slideshow/slideshow.component.ts",
+          "hash": "504076815301657097"
+        },
+        {
+          "file": "src/app/trendingitem/trendingitem.component.css",
+          "hash": "12701193655838193877"
+        },
+        {
+          "file": "src/app/trendingitem/trendingitem.component.html",
+          "hash": "8616089880648339843"
+        },
+        {
+          "file": "src/app/trendingitem/trendingitem.component.spec.ts",
+          "hash": "16450391540249600929"
+        },
+        {
+          "file": "src/app/trendingitem/trendingitem.component.ts",
+          "hash": "11154082697888289789"
+        },
+        {
+          "file": "src/app/trendingslider/trendingslider.component.css",
+          "hash": "14803214166904521538"
+        },
+        {
+          "file": "src/app/trendingslider/trendingslider.component.html",
+          "hash": "1592749905900847960"
+        },
+        {
+          "file": "src/app/trendingslider/trendingslider.component.spec.ts",
+          "hash": "13350450959268887535"
+        },
+        {
+          "file": "src/app/trendingslider/trendingslider.component.ts",
+          "hash": "2003061388104158108"
+        },
+        {
+          "file": "src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "src/assets/cart.svg",
+          "hash": "4278887408094290806"
+        },
+        {
+          "file": "src/assets/home-img-1.jpg",
+          "hash": "8099145610616357909"
+        },
+        {
+          "file": "src/assets/home-img-2.jpg",
+          "hash": "2727082908691694697"
+        },
+        {
+          "file": "src/assets/home-img-3.jpg",
+          "hash": "7963626600778808756"
+        },
+        {
+          "file": "src/assets/home-img-4.jpg",
+          "hash": "17260641477041474146"
+        },
+        {
+          "file": "src/assets/img/banner/banner1.jpg",
+          "hash": "9809698175610052325"
+        },
+        {
+          "file": "src/assets/img/banner/banner2.jpg",
+          "hash": "14466397716820141294"
+        },
+        {
+          "file": "src/assets/img/cart/empty-cart.png",
+          "hash": "783385752847072613"
+        },
+        {
+          "file": "src/assets/img/header/home-img-1.jpg",
+          "hash": "14998059027406786302"
+        },
+        {
+          "file": "src/assets/img/header/home-img-2.jpg",
+          "hash": "5784302039349405913"
+        },
+        {
+          "file": "src/assets/img/header/home-img-3.jpg",
+          "hash": "4864671675802603264"
+        },
+        {
+          "file": "src/assets/img/header/home-img-4.jpg",
+          "hash": "17260641477041474146"
+        },
+        {
+          "file": "src/assets/img/products/1.jpg",
+          "hash": "15224655679109402635"
+        },
+        {
+          "file": "src/assets/img/products/10.jpg",
+          "hash": "221972432810782545"
+        },
+        {
+          "file": "src/assets/img/products/11.jpg",
+          "hash": "13624418963665266552"
+        },
+        {
+          "file": "src/assets/img/products/12.png",
+          "hash": "1828613679621952840"
+        },
+        {
+          "file": "src/assets/img/products/13.jpg",
+          "hash": "1369627874367104792"
+        },
+        {
+          "file": "src/assets/img/products/14.png",
+          "hash": "2132232115639356262"
+        },
+        {
+          "file": "src/assets/img/products/15.jpg",
+          "hash": "12937036756553059710"
+        },
+        {
+          "file": "src/assets/img/products/16.jpg",
+          "hash": "5489032195419004301"
+        },
+        {
+          "file": "src/assets/img/products/17.png",
+          "hash": "6151980392490941361"
+        },
+        {
+          "file": "src/assets/img/products/18.png",
+          "hash": "776813829860584165"
+        },
+        {
+          "file": "src/assets/img/products/19.jpg",
+          "hash": "9655050898350069498"
+        },
+        {
+          "file": "src/assets/img/products/2.jpg",
+          "hash": "12003650015421060465"
+        },
+        {
+          "file": "src/assets/img/products/20.jpg",
+          "hash": "1454449265528831529"
+        },
+        {
+          "file": "src/assets/img/products/21.jpg",
+          "hash": "13604475916107193541"
+        },
+        {
+          "file": "src/assets/img/products/22.jpg",
+          "hash": "1926795040440753921"
+        },
+        {
+          "file": "src/assets/img/products/3.png",
+          "hash": "14074087791753820751"
+        },
+        {
+          "file": "src/assets/img/products/4.jpg",
+          "hash": "5130762694265239090"
+        },
+        {
+          "file": "src/assets/img/products/5.jpg",
+          "hash": "13660209185113380091"
+        },
+        {
+          "file": "src/assets/img/products/6.jpg",
+          "hash": "2794946160461776707"
+        },
+        {
+          "file": "src/assets/img/products/7.jpg",
+          "hash": "4722058469929088954"
+        },
+        {
+          "file": "src/assets/img/products/8.jpg",
+          "hash": "16547125791538326064"
+        },
+        {
+          "file": "src/assets/img/products/9.png",
+          "hash": "8446969888777739808"
+        },
+        {
+          "file": "src/assets/img/products/otherProducts/blackandwhite1.webp",
+          "hash": "13088538931772679017"
+        },
+        {
+          "file": "src/assets/img/products/otherProducts/blackandwhite2.webp",
+          "hash": "12491717503814679695"
+        },
+        {
+          "file": "src/assets/img/products/otherProducts/blacklamp1.webp",
+          "hash": "18189038969185234167"
+        },
+        {
+          "file": "src/assets/img/products/otherProducts/blacklamp2.jpg",
+          "hash": "5703555429892365618"
+        },
+        {
+          "file": "src/assets/img/products/otherProducts/bodyoil1.jpg",
+          "hash": "15175135501108141618"
+        },
+        {
+          "file": "src/assets/img/products/otherProducts/bodyoil2.jpg",
+          "hash": "11650457852292250645"
+        },
+        {
+          "file": "src/assets/img/products/otherProducts/cam1.webp",
+          "hash": "11286086026965162984"
+        },
+        {
+          "file": "src/assets/img/products/otherProducts/cam2.jpg",
+          "hash": "5113917076982407290"
+        },
+        {
+          "file": "src/assets/img/products/otherProducts/chairboom1.webp",
+          "hash": "15852144178223368618"
+        },
+        {
+          "file": "src/assets/img/products/otherProducts/chairboom2.webp",
+          "hash": "11111825783518689685"
+        },
+        {
+          "file": "src/assets/img/products/otherProducts/cleaningoil1.jpg",
+          "hash": "3216539504301923193"
+        },
+        {
+          "file": "src/assets/img/products/otherProducts/cleaningoil2.jpg",
+          "hash": "4906125149605795887"
+        },
+        {
+          "file": "src/assets/img/products/otherProducts/comfy1.webp",
+          "hash": "6762072584910988936"
+        },
+        {
+          "file": "src/assets/img/products/otherProducts/comfy2.webp",
+          "hash": "14786171357632387342"
+        },
+        {
+          "file": "src/assets/img/products/otherProducts/copenhagen1.webp",
+          "hash": "17506063889206837528"
+        },
+        {
+          "file": "src/assets/img/products/otherProducts/copenhagen2.webp",
+          "hash": "11443045732532520991"
+        },
+        {
+          "file": "src/assets/img/products/otherProducts/cotton1.jpg",
+          "hash": "4820970147290632303"
+        },
+        {
+          "file": "src/assets/img/products/otherProducts/cotton2.jpg",
+          "hash": "9196573330668420794"
+        },
+        {
+          "file": "src/assets/img/products/otherProducts/goldenlamp1.webp",
+          "hash": "17276822142550308459"
+        },
+        {
+          "file": "src/assets/img/products/otherProducts/goldenlamp2.webp",
+          "hash": "1003075497676374400"
+        },
+        {
+          "file": "src/assets/img/products/otherProducts/lampblue1.webp",
+          "hash": "16429370656946300397"
+        },
+        {
+          "file": "src/assets/img/products/otherProducts/lampblue2.webp",
+          "hash": "5630178610839543512"
+        },
+        {
+          "file": "src/assets/img/products/otherProducts/mat1.webp",
+          "hash": "10627063306975871207"
+        },
+        {
+          "file": "src/assets/img/products/otherProducts/mat2.webp",
+          "hash": "12611912427986697093"
+        },
+        {
+          "file": "src/assets/img/products/otherProducts/moderngold1.webp",
+          "hash": "15408191204123741037"
+        },
+        {
+          "file": "src/assets/img/products/otherProducts/moderngold2.webp",
+          "hash": "10797851707163988376"
+        },
+        {
+          "file": "src/assets/img/products/otherProducts/other1.jpg",
+          "hash": "14547914948359545858"
+        },
+        {
+          "file": "src/assets/img/products/otherProducts/other2.jpg",
+          "hash": "15314311334804753413"
+        },
+        {
+          "file": "src/assets/img/products/otherProducts/pulpunit1.jpg",
+          "hash": "17181663426347608176"
+        },
+        {
+          "file": "src/assets/img/products/otherProducts/pulpunit2.jpg",
+          "hash": "5944462153430664084"
+        },
+        {
+          "file": "src/assets/img/products/otherProducts/shelf1.webp",
+          "hash": "15658640520370878783"
+        },
+        {
+          "file": "src/assets/img/products/otherProducts/shelf2.webp",
+          "hash": "5148134090796918291"
+        },
+        {
+          "file": "src/assets/img/products/otherProducts/tablelamp1.webp",
+          "hash": "7871488330959013899"
+        },
+        {
+          "file": "src/assets/img/products/otherProducts/tablelamp2.webp",
+          "hash": "13621818041246328103"
+        },
+        {
+          "file": "src/assets/img/products/otherProducts/toster1.jpg",
+          "hash": "4080059136212640794"
+        },
+        {
+          "file": "src/assets/img/products/otherProducts/toster2.jpg",
+          "hash": "11244276973393442223"
+        },
+        {
+          "file": "src/assets/img/products/otherProducts/vase1.webp",
+          "hash": "16628816787507553326"
+        },
+        {
+          "file": "src/assets/img/products/otherProducts/vase2.webp",
+          "hash": "11411354934404251415"
+        },
+        {
+          "file": "src/assets/img/products/otherProducts/watch12.jpg",
+          "hash": "17084093232468277847"
+        },
+        {
+          "file": "src/assets/img/products/otherProducts/watch13.jpg",
+          "hash": "2802562741087904814"
+        },
+        {
+          "file": "src/assets/img/products/otherProducts/watch21.jpg",
+          "hash": "15919169484816485104"
+        },
+        {
+          "file": "src/assets/img/products/otherProducts/watch22.jpg",
+          "hash": "14059172347201400093"
+        },
+        {
+          "file": "src/assets/img/products/otherProducts/woodchair1.webp",
+          "hash": "16406107099046031073"
+        },
+        {
+          "file": "src/assets/img/products/otherProducts/woodchair2.webp",
+          "hash": "8268233999964751997"
+        },
+        {
+          "file": "src/assets/img/slides/slide-1.jpg",
+          "hash": "15907623509807722739"
+        },
+        {
+          "file": "src/assets/img/slides/slide-2.jpg",
+          "hash": "10308254963965570145"
+        },
+        {
+          "file": "src/assets/img/slides/slide-3.jpg",
+          "hash": "12818381056605217684"
+        },
+        {
+          "file": "src/assets/img/slides/slide-4.jpg",
+          "hash": "11240464815770790001"
+        },
+        {
+          "file": "src/assets/img/slides/slide-5.jpg",
+          "hash": "986200357541383437"
+        },
+        {
+          "file": "src/assets/logo.png",
+          "hash": "4040749809692848054"
+        },
+        {
+          "file": "src/favicon.ico",
+          "hash": "1334082905277948367"
+        },
+        {
+          "file": "src/index.html",
+          "hash": "12648416807208708602"
+        },
+        {
+          "file": "src/main.ts",
+          "hash": "12246588107753938993"
+        },
+        {
+          "file": "src/styles.css",
+          "hash": "13093173098814725552"
+        },
+        {
+          "file": "tailwind.config.js",
+          "hash": "15115201247017382656"
+        },
+        {
+          "file": "tsconfig.app.json",
+          "hash": "17337579397915052279"
+        },
+        {
+          "file": "tsconfig.json",
+          "hash": "1047940026627514556"
+        },
+        {
+          "file": "tsconfig.spec.json",
+          "hash": "15575553540147145788"
+        }
+      ]
+    },
+    "nonProjectFiles": []
+  }
+}

@@ -1,0 +1,36 @@
+<div class="container">
+    <div class="title-home">
+        <a routerLink="/">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+            </svg>
+            Home
+        </a>
+        <h3>{{title}}</h3>
+    </div>
+    <div class="filter-btns">
+        <a routerLink="all" (click)="updatetitle('All')">
+            <button>All</button>
+        </a>
+        <a routerLink="furnitures">
+            <button (click)="updatetitle('Furnitures')">Furnitures</button>
+        </a>
+        <a routerLink="electronics">
+            <button (click)="updatetitle('Electronics')">Electronics</button>
+        </a>
+        <a routerLink="lamps">
+            <button (click)="updatetitle('Lamps')">Lamps</button>
+        </a>
+        <a routerLink="kitchen">
+            <button (click)="updatetitle('Kitchen')">Kitchen</button>
+        </a>
+        <a routerLink="chairs">
+            <button (click)="updatetitle('Chairs')">Chairs</button>
+        </a>
+        <a routerLink="skincare">
+            <button (click)="updatetitle('Skincare')">Skincare</button>
+        </a>
+    </div>
+    
+    <router-outlet></router-outlet>
+</div>

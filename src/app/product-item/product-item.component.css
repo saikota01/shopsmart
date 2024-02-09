@@ -1,0 +1,50 @@
+.row-container {
+    display: flex;
+    gap: 2.5rem;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+    position: relative;
+    padding: 0.675rem 0.405rem;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.row-container::-webkit-scrollbar {
+    display: none;
+
+    /* Hide scrollbar for IE, Edge and Firefox */
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.row-item {
+    outline: 2px solid rgba(0, 0, 0, .205);
+    cursor: pointer;
+    transition: all 0.15s ease-in;
+    border-radius: 10px;
+}
+
+.row-item a {
+    text-decoration: none;
+    color: black;
+}
+
+.row-item:hover {
+    outline: 2px solid rgba(0, 0, 0, .6);
+}
+
+.item-header img {
+    width: 14.175rem;
+}
+
+.item-description {
+    /* font-size: 1.1475rem; */
+    margin-top: 1rem;
+    font-size: 1rem;
+    padding: 0.675rem;
+}
+
+p {
+    margin-bottom: 0px;
+}
