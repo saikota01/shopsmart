@@ -1,10 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 
+let intervalId: any;
 @Component({
   selector: 'app-slideshow',
   templateUrl: './slideshow.component.html'
 })
 export class SlideshowComponent implements OnInit {
+
 
   ngOnInit(): void {
     this.startAutoSlide();
@@ -18,18 +20,23 @@ export class SlideshowComponent implements OnInit {
     '../../assets/img/slides/slide-4.jpg'
   ];
 
-  changeSlide(direction: 'next' | 'prev'): void {
-    if (direction === 'next') {
-      this.currentIndex = (this.currentIndex + 1) % this.images.length;
-    } 
-    else {
-      this.currentIndex = (this.currentIndex - 1 + this.images.length) % this.images.length;
-    }
+changeSlide(direction: 'next' | 'prev'): void {
+  if (direction === 'next') {
+    this.currentIndex = (this.currentIndex + 1) % this.images.length;
+  } else {
+    this.currentIndex = (this.currentIndex - 1 + this.images.length) % this.images.length;
   }
 
-  startAutoSlide(): void {
-    setInterval(() => {
-      this.changeSlide('next');
-    }, 5000);
+  // Reset auto slide interval before potentially restarting it
+  if (intervalId) {
+    clearInterval(intervalId);
+    this.startAutoSlide();
   }
+}
+
+startAutoSlide(): void {
+  intervalId = setInterval(() => {
+    this.changeSlide('next');
+  }, 5000);
+}
 }
